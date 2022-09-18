@@ -89,3 +89,76 @@ The *clean* syntax is when one lines up the pipes perfectly in a vertical line, 
 | Item 1     | Description      |
 | Item 2     | Description      |
 | Item 3     | Description      |
+
+
+<br />
+
+# Checklists
+
+Markdown supports more than just Ordered (numbered) and Unordered (bulleted) lists. You can also create checklists using the following syntax:
+
+## Checklist Syntax
+
+```markdown
+### Simple Checklist:
+- [x] Checked/Completed Item
+- [ ] Unchecked/Todo Item
+
+### Nested Checklist (Bullets):
+- Checklist $BulletName1
+	- [x] Completed Item
+	- [ ] Incomplete Item
+- Checklist $BulletName2
+	- [ ] Incomplete Item
+	- [ ] Incomplete Item
+
+### Nested Checklist (Numbered):
+1. Checklist 1
+	- [x] Completed Item
+	- [ ] Incomplete Item
+	- [x] Completed Item
+2. Checklist 2
+	- [ ] Incomplete Item
+	- [x] Completed Item
+
+### Nested Checklist (Todo):
+- [ ] Incomplete "Todo" Checklist 1
+	- [x] Completed Item
+	- [ ] Todo Item
+- [x] Completed "Todo" Checklist 2
+	- [x] Completed Item
+	- [x] Completed Item
+	- [x] Completed Item
+```
+
+## Checklist  Output
+
+### Simple Checklist:
+- [x] Checked/Completed Item
+- [ ] Unchecked/Todo Item
+
+### Nested Checklist (Bullets):
+- Checklist $BulletName1
+  - [x] Completed Item
+  - [ ] Incomplete Item
+- Checklist $BulletName2
+  - [ ] Incomplete Item
+  - [ ] Incomplete Item
+
+### Nested Checklist (Numbered):
+1. Checklist 1
+   - [x] Completed Item
+   - [ ] Incomplete Item
+   - [x] Completed Item
+2. Checklist 2
+   - [ ] Incomplete Item
+   - [x] Completed Item
+
+### Nested Checklist (Todo):
+- [ ] Incomplete "Todo" Checklist 1
+  - [x] Completed Item
+  - [ ] Todo Item
+- [x] Completed "Todo" Checklist 2
+  - [x] Completed Item
+  - [x] Completed Item
+  - [x] Completed Item
