@@ -22,7 +22,7 @@ An in-depth description of the issue(s) you're facing. The more detailed, the be
 
 # Troubleshooting
 
-
+__*Optional*__ Overview of your troubleshooting process.
 
 ## Steps Taken
 <!--
@@ -34,8 +34,30 @@ An in-depth description of the issue(s) you're facing. The more detailed, the be
 -->
 
 ### The Basics
+<!--
+! Please complete these steps before reporting any issues to avoid unnecessary reporting 
+-->
 - [ ] Rebooted Device
 - [ ] Cleared App Cache
+- [ ] Updated Acode
+	- *If applicable*
 - [ ] Reinstalled Acode
+- [ ] Updated Device
+	- *If applicable*
 - [ ] Installed latest 'Stable' release
 	- *Only if you're using a beta version*
+
+
+### Additional Steps
+<!--
+! Situational and/or Advanced Troubleshooting Steps
+- Please Mark any of the following issue-specific steps that may be relevant to the issue(s) you're experiencing, or
+- Add any steps you've taken that aren't included to the list
+-->
+- __For Typing/Editing Issues__
+	- [ ] Used one or more keyboard apps, including:
+		- [ ] Stock/Default Keyboard
+		- ...
+- __Additional Steps__
+	- ...
+	- ...
