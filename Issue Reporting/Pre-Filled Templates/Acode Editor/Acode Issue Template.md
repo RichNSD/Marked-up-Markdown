@@ -13,12 +13,21 @@ Essentially, the TLDR version of your issue. Keep it around 1-2, *maybe* 3 sente
 An in-depth description of the issue(s) you're facing. The more detailed, the better.
 
 # Troubleshooting
-<!-- List (and if possible/necessary, briefly detail) any and all steps taken to troubleshoot the problem so far -->
+
 
 ## Steps Taken
+<!--
+- List any and all steps taken to troubleshoot the problem so far - Mark steps taken by placing an 'x' between the brackets:
+	? '- [ ]'	= Unchecked
+	? '- [x]'	= Checked
+	! '[x]' 	= Invalid Syntax
+		(No '-' = no checkbox)
+	
+-->
 
 ### The Basics
-
 - [ ] Rebooted Device
 - [ ] Cleared App Cache
 - [ ] Reinstalled Acode
+- [ ] Installed latest 'Stable' release
+	- *Only if you're using a beta version*
